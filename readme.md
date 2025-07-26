@@ -6,10 +6,10 @@ This project enables mouse control using a micro:bit and a Raspberry Pi Pico, tr
 
 1. **Micro:bit**
 	- Reads accelerometer data (X, Y, Z axes).
-	- Sends data via serial or radio to the Raspberry Pi Pico.
+	- Sends data via serial to the Raspberry Pi Pico, over pins 0 and 1.
 
 2. **Raspberry Pi Pico**
-	- Receives accelerometer data from the micro:bit.
+	- Receives accelerometer data from the micro:bit over GP0 and GP1.
 	- Connects to WiFi and transmits the data to the laptop using a network protocol (e.g., UDP/TCP/WebSocket).
 
 3. **Laptop**
@@ -18,7 +18,7 @@ This project enables mouse control using a micro:bit and a Raspberry Pi Pico, tr
 
 ## Setup
 
-1. **Micro:bit**
+1. **Micro:bit**s
 	- Flash code to read and send accelerometer data.
 
 2. **Raspberry Pi Pico**
