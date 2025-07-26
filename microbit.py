@@ -1,6 +1,5 @@
-# Imports go at the top
-from microbit import *
-
+# This code is intended to run on a BBC micro:bit, you can run it by simply copying accelerometer.hex to the micro:bit
+#from microbit import *
 
 uart.init(baudrate=115200, tx=pin1, rx=pin0)
 
