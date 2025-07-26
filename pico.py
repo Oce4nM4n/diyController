@@ -1,3 +1,5 @@
+# This micropython and is intended to run on a Raspberry Pi Pico, you can run it by copying pico.py to the Pico
+
 import network
 import socket
 import time
